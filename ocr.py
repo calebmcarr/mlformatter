@@ -26,4 +26,4 @@ def ocr_read(filename):
 		f.write(text[photo])
 		f.close()
 	return text
-print(ocr_read(dir))
+ocr_read(dir)
